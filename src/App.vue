@@ -9,6 +9,8 @@
     <van-button type="default">默认按钮</van-button>
     <van-button type="warning">警告按钮</van-button>
     <van-button type="danger">危险按钮</van-button>
+
+    <div class="box"></div>
     <router-view />
   </div>
 </template>
@@ -22,5 +24,10 @@ export default {
 <style lang="less">
 h1{
   text-align: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: pink;
 }
 </style>
